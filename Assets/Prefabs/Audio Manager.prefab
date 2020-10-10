@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6014807598610783943
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6014807598610783941}
+  - component: {fileID: 6014807598610783940}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6014807598610783941
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6014807598610783943}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6014807598610783940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6014807598610783943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f851c6dca93a8d04e8e0c12c483d501d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: BallCollide0
+    clip: {fileID: 8300000, guid: 0a3ad05b79dc6234189c82e3ff8dcdb7, type: 3}
+    pitch: 2
+    volume: 1
+    loop: 0
+    output: {fileID: 5503811507575203592, guid: 022c0544075927244ba243a49119e9a1,
+      type: 2}
+    source: {fileID: 0}
+  - name: PaddleSound0
+    clip: {fileID: 8300000, guid: 0a3ad05b79dc6234189c82e3ff8dcdb7, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    output: {fileID: 5503811507575203592, guid: 022c0544075927244ba243a49119e9a1,
+      type: 2}
+    source: {fileID: 0}
+  - name: Theme
+    clip: {fileID: 8300000, guid: 7958ec23b8b748c4d9cdc5f1e021f791, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    output: {fileID: -1214313354073070709, guid: 022c0544075927244ba243a49119e9a1,
+      type: 2}
+    source: {fileID: 0}
+  - name: Ready
+    clip: {fileID: 8300000, guid: 2435df75f7fe6a845941daa90a25381a, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    output: {fileID: 5503811507575203592, guid: 022c0544075927244ba243a49119e9a1,
+      type: 2}
+    source: {fileID: 0}
+  - name: Scored
+    clip: {fileID: 8300000, guid: 59292c3a953258b42b0f13a4f988f54c, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    output: {fileID: 5503811507575203592, guid: 022c0544075927244ba243a49119e9a1,
+      type: 2}
+    source: {fileID: 0}
+  - name: Win
+    clip: {fileID: 8300000, guid: 922e5935e0986b8448c7f3b9e9c439a8, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    output: {fileID: 5503811507575203592, guid: 022c0544075927244ba243a49119e9a1,
+      type: 2}
+    source: {fileID: 0}
+  - name: MultiplayerTheme
+    clip: {fileID: 8300000, guid: 4e768b683bdc890419fef88ea70c94ae, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    output: {fileID: 5503811507575203592, guid: 022c0544075927244ba243a49119e9a1,
+      type: 2}
+    source: {fileID: 0}
